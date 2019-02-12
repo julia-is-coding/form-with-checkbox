@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 20px;
+    background: rgb(39, 39, 38);
+}
+.container {
+    margin: 400px auto;
+    background: white;
+    width: 500px;
+}
+
+.group-one {
+    font-weight: 700;
+}
+
+fieldset {
+    border: none !important;
+}
+
+div { 
+    padding: 10px;
+}
+
+input[type="checkbox"]:checked + span {
+    color: rgb(161, 159, 159);
+    text-decoration: line-through;
+    opacity: 0.5;
+}
